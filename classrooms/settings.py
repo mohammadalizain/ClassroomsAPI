@@ -37,10 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'rest_framework',
     'classes',
-
     'crispy_forms',
+    'ClassRoomsApp',
+
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
