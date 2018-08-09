@@ -14,6 +14,7 @@ class deetailSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class createSerializer(serializers.ModelSerializer):
+
     class Meta:
         model = Classroom
         fields = [
