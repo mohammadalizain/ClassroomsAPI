@@ -23,6 +23,7 @@ class createSerializer(serializers.ModelSerializer):
             'year',
             ]
 
+
 class createUpdateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Classroom
